@@ -19,3 +19,4 @@ models/
 
 # Archivos DVC locales
 .dvc/cache/
+.env
