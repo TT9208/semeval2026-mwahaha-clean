@@ -1,0 +1,14 @@
+# Keys and env
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# Data and outputs (no subir a git)
+data/raw/
+outputs/
+models/
+
+# DVC internals
+.dvc/
+*.dvc
