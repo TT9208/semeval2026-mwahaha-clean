@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  generate_jokes:
+    cmd: python src/generate_jokes.py
+    deps:
+    - path: data/raw/task-a-en.tsv
+      hash: md5
+      md5: d6628ce2bbd2495ab43b9dbfb97e2c34
+      size: 98027
+    - path: src/generate_jokes.py
+      hash: md5
+      md5: 7949f4676d19c3ca2e6471f3663fdfdd
+      size: 1814
+    outs:
+    - path: outputs/jokes_dev.csv
+      hash: md5
+      md5: 0c6cb301d81b4c8784cec37d8fca5100
+      size: 980

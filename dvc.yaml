@@ -1,0 +1,8 @@
+stages:
+  generate_jokes:
+    cmd: python src/generate_jokes.py
+    deps:
+    - data/raw/task-a-en.tsv
+    - src/generate_jokes.py
+    outs:
+    - outputs/jokes_dev.csv
