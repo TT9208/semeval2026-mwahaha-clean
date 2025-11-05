@@ -1,14 +1,21 @@
-# Keys and env
-.env
+# Entorno virtual
 .venv/
+
+# Archivos de sistema
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Data and outputs (no subir a git)
+# Datos grandes o sensibles
 data/raw/
 outputs/
 models/
 
-# DVC internals
-.dvc/
-*.dvc
+# Archivos temporales
+*.log
+*.tmp
+.DS_Store
+
+# Archivos DVC locales
+.dvc/cache/
