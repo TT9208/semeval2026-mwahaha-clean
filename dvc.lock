@@ -9,10 +9,10 @@ stages:
       size: 98027
     - path: src/generate_jokes.py
       hash: md5
-      md5: 7949f4676d19c3ca2e6471f3663fdfdd
-      size: 1814
+      md5: 671f9b4e02107436a9ac781abced7b03
+      size: 2003
     outs:
     - path: outputs/jokes_dev.csv
       hash: md5
-      md5: 0c6cb301d81b4c8784cec37d8fca5100
-      size: 980
+      md5: bcab6498a907a28c101305872a4792f0
+      size: 1019
